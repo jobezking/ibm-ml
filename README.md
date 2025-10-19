@@ -7,7 +7,7 @@ rm \-rf venv .venv
 /usr/bin/python3.14 \-m venv venv  
 source venv/bin/activate
 
-pip3 install \--upgrade pip  
+pip3.14 install \--upgrade pip  
 venv/bin/pip3.14 install mglearn openpyxl pandas numpy matplotlib seaborn scikit-learn  
 venv/bin/pip3.14 install pandas-stubs  
 source venv/bin/activate  
